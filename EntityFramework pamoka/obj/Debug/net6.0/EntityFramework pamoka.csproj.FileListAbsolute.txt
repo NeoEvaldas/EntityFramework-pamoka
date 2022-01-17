@@ -1,0 +1,34 @@
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\appsettings.json
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\EntityFramework pamoka.exe
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\EntityFramework pamoka.deps.json
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\EntityFramework pamoka.runtimeconfig.json
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\EntityFramework pamoka.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\ref\EntityFramework pamoka.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\EntityFramework pamoka.pdb
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\EntityFramework pamoka.csproj.AssemblyReference.cache
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\EntityFramework pamoka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\EntityFramework pamoka.AssemblyInfoInputs.cache
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\EntityFramework pamoka.AssemblyInfo.cs
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\EntityFramework pamoka.csproj.CoreCompileInputs.cache
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\EntityFramework pamoka.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\EntityFramework pamoka.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\scopedcss\bundle\EntityFramework pamoka.styles.css
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\EntityFramework pamoka.csproj.CopyComplete
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\EntityFramework pamoka.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\ref\EntityFramework pamoka.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\EntityFramework pamoka.pdb
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\obj\Debug\net6.0\EntityFramework pamoka.genruntimeconfig.cache
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Neo\source\repos\EntityFramework pamoka\EntityFramework pamoka\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
