@@ -3,6 +3,7 @@ using System;
 using EntityFramework_pamoka.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EntityFramework_pamoka.Migrations
 {
     [DbContext(typeof(PavyzdinisDbContext))]
-    partial class PavyzdinisDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220117185048_pridetiVartotojai")]
+    partial class pridetiVartotojai
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

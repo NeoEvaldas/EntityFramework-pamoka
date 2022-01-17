@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Neo\\source\\repos\\EntityFramework pamoka\\EntityFramework pamoka\\EntityFramework pamoka.csproj": {}
+    "C:\\Users\\Neo\\Documents\\GitHub\\EntityFramework-pamoka\\EntityFramework pamoka\\EntityFramework pamoka.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Neo\\source\\repos\\EntityFramework pamoka\\EntityFramework pamoka\\EntityFramework pamoka.csproj": {
+    "C:\\Users\\Neo\\Documents\\GitHub\\EntityFramework-pamoka\\EntityFramework pamoka\\EntityFramework pamoka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Neo\\source\\repos\\EntityFramework pamoka\\EntityFramework pamoka\\EntityFramework pamoka.csproj",
+        "projectUniqueName": "C:\\Users\\Neo\\Documents\\GitHub\\EntityFramework-pamoka\\EntityFramework pamoka\\EntityFramework pamoka.csproj",
         "projectName": "EntityFramework pamoka",
-        "projectPath": "C:\\Users\\Neo\\source\\repos\\EntityFramework pamoka\\EntityFramework pamoka\\EntityFramework pamoka.csproj",
+        "projectPath": "C:\\Users\\Neo\\Documents\\GitHub\\EntityFramework-pamoka\\EntityFramework pamoka\\EntityFramework pamoka.csproj",
         "packagesPath": "C:\\Users\\Neo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Neo\\source\\repos\\EntityFramework pamoka\\EntityFramework pamoka\\obj\\",
+        "outputPath": "C:\\Users\\Neo\\Documents\\GitHub\\EntityFramework-pamoka\\EntityFramework pamoka\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.1, )"

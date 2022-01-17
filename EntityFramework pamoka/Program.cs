@@ -1,5 +1,8 @@
 using EntityFramework_pamoka.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +14,22 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors();
 builder.Services.AddDbContext<PavyzdinisDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("PavyzdinisDbContext")));
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
+
+
 
 var app = builder.Build();
 
@@ -25,6 +44,8 @@ if (app.Environment.IsDevelopment())
 app.UseCors(x => x.AllowAnyMethod().AllowAnyHeader().SetIsOriginAllowed(origin => true));
 
 using (var scope = app.Services.CreateScope()) { var services = scope.ServiceProvider; var context = services.GetRequiredService<PavyzdinisDbContext>(); context.Database.Migrate(); }
+
+app.UseAuthentication();
 
 app.UseHttpsRedirection();
 
